@@ -1,12 +1,12 @@
 #!/bin/sh
-# wget https://raw.githubusercontent.com/obgp/Auto-Install/master/install.sh;chmod 777 install.sh;bash install.sh;
+# wget https://raw.githubusercontent.com/badiiiro/Python/master/install.sh;chmod 777 install.sh;bash install.sh;
 main() {
 	clear;
 	echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
 	echo "Open Game Panel Installer"
 	echo "For Ubuntu 18.04 only || by badiiiro || v0.1 beta"
-	echo "- 1 -  Install Panel"
-	echo "- 2 -  Install Agent"
+	echo "- 1 -  Install Open Game Panel"
+	echo "- 2 -  Install Open Game Panel Agent"
 	read -p "Select an option:" case
 	case $case in
 		1) panel;;
@@ -22,7 +22,7 @@ clear;
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
 echo "Once this is done, open the browser and go to http://{IP_OF_SERVER_OR_localhost}/index.php"
 echo "Your OGP Datbase info:"
-sudo cat /root/ogp_panel_mysql_info 
+sudo cat /root/ogp_panel_mysql_info;
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
 }
 agent() {
@@ -30,7 +30,7 @@ sudo apt-get update;sudo apt-get upgrade;sudo apt-get install libxml-parser-perl
 clear;
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
 echo "Your OGP Agent info:"
-sudo cat /root/ogp_user_password
+sudo cat /root/ogp_user_password;
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
 }
 main
