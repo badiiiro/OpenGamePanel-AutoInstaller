@@ -1,5 +1,7 @@
 # Open Game Panel Auto Installer v0.1
 
+Open Game Panel auto installer for Ubuntu 18.04 LTS
+
 ## What does this script do?
 
 This script will automaticly install Open Game Panel for you
