@@ -1,5 +1,5 @@
 #!/bin/sh
-# wget https://raw.githubusercontent.com/badiiiro/Python/master/install.sh;chmod 777 install.sh;bash install.sh;
+# First download the sciprt, ```wget https://raw.githubusercontent.com/badiiiro/OpenGamePanel-AutoInstaller/master/install.sh```, make sure to give it access so it can work probebly ```chmod 777 install.sh```, then luanch it using this command ```bash install.sh```.
 main() {
 	clear;
 	echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
