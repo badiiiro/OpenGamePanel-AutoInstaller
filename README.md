@@ -1,20 +1,19 @@
 # Open Game Panel Auto Installer v0.1
 
-Open Game Panel auto installer for Ubuntu 18.04 LTS
+Open Game Panel auto installer for Ubuntu 18.04 LTS.
 
 ## What does this script do?
 
-This script will automaticly install Open Game Panel for you
+This script will automaticly install Open Game Panel for you with all it's components.
 
 ## Installation [Ubuntu 2018.04 LTS ONLY !!!]
 
-Open Putty, login to your server using root access
+Open Putty, login to your server using the root access.
 
-First download the sciprt, ```wget https://raw.githubusercontent.com/badiiiro/OpenGamePanel-AutoInstaller/master/install.sh```, make sure to give it access so it can work fine ```chmod 777 install.sh```, then launch it using this command ```bash install.sh```.
+First download the sciprt, ```wget https://raw.githubusercontent.com/badiiiro/OpenGamePanel-AutoInstaller/master/install.sh```, make sure to give it access so it can work fine ```chmod 777 install.sh```, then launch it using this command ```bash install.sh``` and follow the instructions.
 
-# Connect society with badiiiro :kissing_heart:
+# Connect society with badiiiro
 
-- 📱 Facebook: (https://www.facebook.com/badiiiro/)
 - 🐤 Twitter: (https://twitter.com/badiiiro)
 
 # NOTE
